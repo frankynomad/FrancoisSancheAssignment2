@@ -1,0 +1,193 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Duru Sans', sans-serif;
+	font-size: 18px;
+}
+
+
+h1 {
+	font-size: 36px;
+	font-family: 'Krona One', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 80px;
+	color:#5dcdb5;
+}
+
+
+h2 {
+	font-size: 36px;
+	font-family: 'Krona One', sans-serif;
+	text-transform: uppercase;
+	color: #f95971;
+	text-align: center;
+	padding-top: 55px;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: 'Krona One', sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: normal;
+}
+
+.container {
+	width:1280px;
+	margin: 0 auto;
+
+}
+
+
+
+header {
+	background-image: url('../assets/images/heroimage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 720px;
+	
+}
+
+#logo {
+	background-image: url('../assets/images/asaltlogo.png');
+	width: 276px;
+	height: 119px;
+	float: left;
+}
+
+nav {
+	width:100%;
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 120px;
+	float: left;
+}
+
+#topnav {
+	padding: 30px 0;
+}
+
+ul#topnav {
+	font-size: 18px;
+	font-family: 'Krona One', sans-serif;
+	float: right;
+}
+
+ul#topnav li {
+	display: inline;
+	margin-left: 70px;
+}
+
+ul#topnav li a {
+	text-decoration: none;
+	color:#FFF;
+	opacity: .5;
+}
+
+ul#topnav li a:hover {
+	color:#fefefe;
+	opacity:1;
+}
+
+#image1 {
+	float:left;
+	padding:42px 190px;
+}
+
+#slogan {
+
+	font-size: 18px;
+	font-family: 'Krona One', sans-serif;
+	float:right;
+	text-align: center;
+	padding: 240px 0;
+	padding-right: 247px;
+	color: #FFF;
+}
+
+section#aboutus {
+	width: 100%;
+	float: left;
+	height: 750px;
+}
+
+.leftdetail {
+	width: 640px;
+	float: left;
+}
+
+.rightdetail {
+	width:640px;
+	float: right;
+}
+
+.leftabout {
+	width:685px;
+	float: left;
+	padding-left: 100px;
+	padding-right: 45px;
+}
+
+.rightabout {
+	
+}
+
+
+
+
+
+section#menu {
+	background-image: url('../assets/images/menuimage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	height:510px;
+}
+
+section#menu ul {
+	padding-left: 110px;
+}
+
+section#menu ul li {
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+
+
+footer {
+	float: left;
+	background-color:#252525;
+	color: #FFF;
+	width: 100%;
+
+}
+
+
+#menusection2 {
+	padding:0 60px;
+}
+
+
+#contact {
+	padding:50px 0;
+	padding-left: 100px;
+	float: left;
+	width: 280px;
+}
+
+#copyright {
+	float:right;
+	padding-top:50px;
+	padding-right: 100px;
+	width: 510px;
+}
